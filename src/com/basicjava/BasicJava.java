@@ -1,10 +1,12 @@
 package com.basicjava;
 
+import com.core.*;
+
 public class BasicJava {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		//int power = Integer.parseInt(args[0]);
+		FlipCoin.run();
 	}
 
 }
