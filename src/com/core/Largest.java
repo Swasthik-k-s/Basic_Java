@@ -10,6 +10,7 @@ public class Largest {
 		int a = scanner.nextInt();
 		int b = scanner.nextInt();
 		int c = scanner.nextInt();
+		scanner.close();
 		
 		if(a > b && a > c)
 			System.out.println(a+" is the Largest Number");
