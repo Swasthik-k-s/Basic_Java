@@ -1,12 +1,21 @@
 package com.basicjava;
 
 import com.core.*;
+import com.functional.*;
 
 public class BasicJava {
 
 	public static void main(String[] args) {
-		//int power = Integer.parseInt(args[0]);
-		FlipCoin.run();
+		
+		Array.TwoDArray();
+		
+		//SumOfThree.Triplets();
+		
+		//Distance.euclideanDistance(args);
+		
+		//Quadratic.root();
+		
+		//WindChill.windChill(args);
 	}
 
 }
