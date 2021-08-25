@@ -2,12 +2,13 @@ package com.basicjava;
 
 import com.core.*;
 import com.functional.*;
+import com.logical.*;
 
 public class BasicJava {
 
 	public static void main(String[] args) {
 		
-		//Basic Core Java Methods
+		//1)Basic Core Program Methods
 		//FlipCoin.tossCoin();
 		
 		//LeapYear.leapYear();
@@ -28,7 +29,8 @@ public class BasicJava {
 		
 		//Largest.largest();
 		
-		//Functional Methods
+		
+		//2)Functional Program Methods
 		//Array.TwoDArray();
 		
 		//SumOfThree.Triplets();
@@ -38,6 +40,16 @@ public class BasicJava {
 		//Quadratic.root();
 		
 		//WindChill.windChill(args);
+		
+		
+		//3)Logical Program Methods
+		//Fibonacci.fibonacci();
+		
+		//PerfectNumber.perfectNumber();
+		
+		//PrimeNumber.primeNumber();
+		
+		Reverse.reverse();
 	}
 
 }
