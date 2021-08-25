@@ -4,21 +4,19 @@ package com.core;
 
 public class PowerOfTwo {
 
-	public static void run(int power) {
+	public static void power(String[] args) {
+		
 		int base = 2;
-		int result = base;
-		//Scanner scanner = new Scanner(System.in);
-		//int power = scanner.nextInt();
+		int result = 2;
+		int num = Integer.parseInt(args[0]);
 
-		while(power < 0 || power > 31) {
+		while(num < 0 || num > 31) {
 			System.out.println("Power should be between 0 and 31");
 			System.exit(0);
 		}
 
-		System.out.println(base + "^0 = 1");
-
-		for(int i=1; i<power; i++) {
-			System.out.println("2^" + i + " = " + result);
+		for(int i=1; i<=num; i++) {
+			System.out.print(result + " ");
 			result *= base;
 		}
 

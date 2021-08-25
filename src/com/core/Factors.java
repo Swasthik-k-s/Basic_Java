@@ -3,7 +3,7 @@ package com.core;
 import java.util.*;
 
 public class Factors {
-	public static void run() {
+	public static void factors() {
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Enter the Value of N");
@@ -13,6 +13,9 @@ public class Factors {
 			System.out.println("N should be Greater than 0");
 			num = scanner.nextInt();
 		}
+		
+		scanner.close();
+		
 		System.out.print("Factors of " + num + " are ");
 		for(int i=2; i<=num; i++) {
 			while(num%i == 0) {

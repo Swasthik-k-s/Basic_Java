@@ -3,7 +3,7 @@ package com.core;
 import java.util.*;
 
 public class HarmonicNumber {
-	public static void run() {
+	public static void harmonicNumber() {
 		Scanner scanner = new Scanner(System.in);
 		double result = 1;
 		
@@ -14,6 +14,9 @@ public class HarmonicNumber {
 			System.out.println("Value of N cannot be 0. Try Again");
 			num = scanner.nextInt();
 		}
+		
+		scanner.close();
+		
 		for(int i=2; i<=num; i++) {
 			result += (double) 1/i;
 		}
