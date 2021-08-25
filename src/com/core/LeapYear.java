@@ -4,7 +4,7 @@ import java.util.*;
 
 public class LeapYear {
 	
-	public static void run() {
+	public static void leapYear() {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Enter the Year");
@@ -14,6 +14,7 @@ public class LeapYear {
 			System.out.println("Please Enter a Valid 4 Digit Year");
 			year = scanner.nextInt();
 		}
+		scanner.close();
 		
 		if((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
 			System.out.println(year + " is a Leap Year");

@@ -4,13 +4,12 @@ import java.util.*;
 
 public class FlipCoin {
 	
-	public static void run() {
+	public static void tossCoin() {
 		int headCount = 0;
-		int tailCount = 0;
 		double headPercentage = 0;
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Enter the numberof times to Flip the Coin");
+		System.out.println("Enter the number of times to Flip the Coin");
 		int num = scanner.nextInt();
 		
 		while(num < 0) {
@@ -18,12 +17,13 @@ public class FlipCoin {
 			num = scanner.nextInt();
 		}
 		
+		scanner.close();
+		
 		for(int i=0;i<num;i++) {
-			System.out.print("Coin Toss Number : " + (i+1) + "\t");
+			System.out.print("Coin Toss Number:" + (i+1) + "\t");
 			double result = Math.random();
 			if(result < 0.5) {
 				System.out.println("Its a Tail");
-				tailCount += 1; 
 			} else {
 				System.out.println("Its a Head");
 				headCount += 1; 
