@@ -2,6 +2,7 @@ package com.basicjava;
 
 import com.core.*;
 import com.functional.*;
+import com.junit.*;
 import com.logical.*;
 
 public class BasicJava {
@@ -49,7 +50,20 @@ public class BasicJava {
 		
 		//PrimeNumber.primeNumber();
 		
-		Reverse.reverse();
+		//Reverse.reverse();
+		
+		//4)JUnit Programs
+		//VendingMachine.vendingMachine();
+		
+		//DayOfWeek.dayOfWeek(args);
+		
+		//TemperatureConversion.temperatureConversion();
+		
+		//MonthlyPayment.monthlyPayment(args);
+		
+		//ToBinary.toBinary();
+		
+		Binary.binary();
 	}
 
 }
