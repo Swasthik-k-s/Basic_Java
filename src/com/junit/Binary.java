@@ -11,7 +11,7 @@ public class Binary {
 		
 		String bits = toBinary(num);
 		System.out.println("Length = " + bits.length());
-		int length = bits.length();;
+		int length = bits.length();
 		if(length != 8) {
 			for(int i=0;i<8-length;i++) {
 				bits = "0" + bits;

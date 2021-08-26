@@ -52,6 +52,10 @@ public class BasicJava {
 		
 		//Reverse.reverse();
 		
+		Coupon.coupon();
+		
+		//StopWatch.stopWatch();
+		
 		//4)JUnit Programs
 		//VendingMachine.vendingMachine();
 		
@@ -61,9 +65,11 @@ public class BasicJava {
 		
 		//MonthlyPayment.monthlyPayment(args);
 		
+		//Sqrt.sqrt();
+		
 		//ToBinary.toBinary();
 		
-		Binary.binary();
+		//Binary.binary();
 	}
 
 }
